@@ -4,11 +4,22 @@
  * Line Following Code for ECE 110
  * Written by Nathaniel Brooke
  * Uses RCtime code from Parallax
+ * 
+ * This code uses 3 QTIs
+ * 
+ * Servo Connections:
+ * Left servo to pin 13
+ * Right servo to pin 12
+ * 
+ * QTI Connections:
+ * Left QTI to digital pin 5
+ * Center QTI to digital pin 6
+ * Right QTI to digital pin 7
  */
 
-#define LEFT_QTI 35                        // Define left QTI pin
-#define MID_QTI 37                         // Define middle QTI pin
-#define RIGHT_QTI 39                       // Define right QTI pin
+#define LEFT_QTI 5                         // Define left QTI pin
+#define MID_QTI 6                          // Define middle QTI pin
+#define RIGHT_QTI 7                        // Define right QTI pin
 
 #define THRESHOLD 100;                     // Constant that differentiates between light and dark
 
