@@ -30,6 +30,7 @@ void loop() {
   Serial3.write(12); // Clear LCD
   Serial3.print(distance); // Print number to LCD
   Serial3.println(" cm"); // Print string to LCD
+  
   delay(100);
 }
 
